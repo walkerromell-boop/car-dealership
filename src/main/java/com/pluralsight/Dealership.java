@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Dealership {
     private String name;
@@ -41,5 +42,24 @@ public class Dealership {
     }
 
 
+    public  void getVehicleByPrice(double minPrice, double maxPrice) {
+        List<Vehicle> filtered = new ArrayList<>();
+
+        for (Vehicle vehiclelist : vehicles) {
+            if (vehiclelist.getPrice() >= minPrice && vehiclelist.getPrice() <= maxPrice) {
+                filtered.add(vehiclelist);
+            }
+        }
+
+        System.out.println("\n=== Vehicles priced between $" + minPrice + " and $" + maxPrice + " ===");
+        displayResults(filtered);
+    }
+
+    private static void displayResults(List<Vehicle> vehicles) {
+
+    }
+
 
 }
+
+

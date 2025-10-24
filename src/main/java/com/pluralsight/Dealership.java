@@ -77,7 +77,7 @@ public class Dealership {
         return null;
     }
 
-    public List<Vehicle> addVehicle(ArrayList<Vehicle> newVehicles) {
+    public List<Vehicle> addVehicle(Vehicle newVehicles) {
         List<Vehicle> filtered = new ArrayList<>();
         return null;
     }

@@ -39,4 +39,12 @@ public class DealershipFileManger {
         }
 
     }
+
+    public Dealership saveDealership() {
+        return null;
+    }
+
+
+
+
 }

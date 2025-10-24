@@ -13,7 +13,7 @@ public class Dealership {
         this.name = name;
         this.address = address;
         this.phone = phone;
-        this.vehicles= new ArrayList<>();
+        this.vehicles = new ArrayList<>();
 
     }
 
@@ -42,21 +42,44 @@ public class Dealership {
     }
 
 
-    public  void getVehicleByPrice(double minPrice, double maxPrice) {
+    public List<Vehicle> getVehicleByPrice(double minPrice, double maxPrice) {
         List<Vehicle> filtered = new ArrayList<>();
-
-        for (Vehicle vehiclelist : vehicles) {
-            if (vehiclelist.getPrice() >= minPrice && vehiclelist.getPrice() <= maxPrice) {
-                filtered.add(vehiclelist);
-            }
-        }
-
-        System.out.println("\n=== Vehicles priced between $" + minPrice + " and $" + maxPrice + " ===");
-        displayResults(filtered);
+        return null;
     }
 
-    private static void displayResults(List<Vehicle> vehicles) {
+    public List<Vehicle> getVehicleByMakeModel(String make, String model) {
+        List<Vehicle> filtered = new ArrayList<>();
+        return null;
+    }
 
+    public List<Vehicle> getVehicleByColor(String color) {
+        List<Vehicle> filtered = new ArrayList<>();
+        return null;
+    }
+
+    public List<Vehicle> getVehicleByYear(int min, int max) {
+        List<Vehicle> filtered = new ArrayList<>();
+        return null;
+    }
+
+    public List<Vehicle> getVehicleByMileage(int min, int max) {
+        List<Vehicle> filtered = new ArrayList<>();
+        return null;
+    }
+
+    public List<Vehicle> getVehicleByType(double minPrice, double maxPrice) {
+        List<Vehicle> filtered = new ArrayList<>();
+        return null;
+    }
+
+    public List<Vehicle> getAllVehicle() {
+        List<Vehicle> filtered = new ArrayList<>();
+        return null;
+    }
+
+    public List<Vehicle> addVehicle(ArrayList<Vehicle> newVehicles) {
+        List<Vehicle> filtered = new ArrayList<>();
+        return null;
     }
 
 

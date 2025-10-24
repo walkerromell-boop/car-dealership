@@ -81,7 +81,8 @@ public class Dealership {
         List<Vehicle> filtered = new ArrayList<>();
         return null;
     }
-    public List<Vehicle> removeVehicle(ArrayList<Vehicle> newVehicles) {
+
+    public List<Vehicle> removeVehicle() {
         List<Vehicle> filtered = new ArrayList<>();
         return null;
     }

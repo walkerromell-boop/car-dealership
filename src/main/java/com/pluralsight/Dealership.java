@@ -57,12 +57,12 @@ public class Dealership {
         return null;
     }
 
-    public List<Vehicle> getVehicleByYear(int min, int max) {
+    public List<Vehicle> getVehicleByYear(int minYear, int max) {
         List<Vehicle> filtered = new ArrayList<>();
         return null;
     }
 
-    public List<Vehicle> getVehicleByMileage(int min, int max) {
+    public List<Vehicle> getVehicleByMileage(int minMiles, int maxMiles) {
         List<Vehicle> filtered = new ArrayList<>();
         return null;
     }

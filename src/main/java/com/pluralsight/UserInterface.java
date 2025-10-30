@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UserInterface {
     //Display Method controls the user interface
 
-    public void display() {
+    public void displayMainMenu() {
 
 //        Call the private init
 
@@ -20,7 +20,7 @@ public class UserInterface {
                     case "price search":
 //                        display search by price menu
                         break;
-                    case "model search":
+                    case "make and model search":
 //                        display search by model menu
                         break;
                     case "search by year":
@@ -44,6 +44,8 @@ public class UserInterface {
                         //add remove car method
                         break;
                 }
+            } catch (Exception e) {
+                throw new RuntimeException(e);
             }
 
         }
